@@ -36,6 +36,7 @@ input, textarea {
     font-size: 15px;
 } 
 
+
 label{
     height: 100%;
     position: absolute;
@@ -54,6 +55,11 @@ button{
     border: 1px solid #fff;
     width: 100%;
     cursor: pointer;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
 }
 input:focus~label,
 input:valid~label{
